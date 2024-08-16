@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Test</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>30aed187-f464-4300-8b87-7594d73e68de</testSuiteGuid>
+   <testCaseLink>
+      <guid>c00c80f9-eae7-49a3-a27a-5416f5c6cbc7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/New</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c78f6439-c206-4ec6-b7a9-a6c3e0568a83</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TestData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>c78f6439-c206-4ec6-b7a9-a6c3e0568a83</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Head</value>
+         <variableId>6eb66deb-6ec5-4fa3-992f-183280596df2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c78f6439-c206-4ec6-b7a9-a6c3e0568a83</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Body</value>
+         <variableId>b235f337-3672-46f9-b46e-1f718971ef50</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c78f6439-c206-4ec6-b7a9-a6c3e0568a83</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Legs</value>
+         <variableId>26f0e08c-9185-4496-9da3-53aa24355cef</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c78f6439-c206-4ec6-b7a9-a6c3e0568a83</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Address</value>
+         <variableId>8fc182e8-9cc2-4186-97cf-60a201f3b895</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

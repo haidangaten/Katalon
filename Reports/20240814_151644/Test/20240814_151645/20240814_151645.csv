@@ -1,0 +1,282 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test,Chrome 127.0.0.0,,,14-08-2024 15:16:54,14-08-2024 15:18:52,1m - 57.526s,PASSED
+,,,,,,,
+Test Cases/New,Chrome 127.0.0.0,,,14-08-2024 15:16:54,14-08-2024 15:17:02,7.401s,PASSED
+"data = findTestData(""Data Files/TestData"")",Chrome 127.0.0.0,,,14-08-2024 15:16:55,14-08-2024 15:16:55,0.039s,PASSED
+rowCount = data.getRowNumbers(),Chrome 127.0.0.0,,,14-08-2024 15:16:55,14-08-2024 15:16:55,0.026s,PASSED
+random = new java.util.Random(),Chrome 127.0.0.0,,,14-08-2024 15:16:55,14-08-2024 15:16:55,0.010s,PASSED
+randomRowIndex = random.nextInt(rowCount) + 1,Chrome 127.0.0.0,,,14-08-2024 15:16:55,14-08-2024 15:16:55,0.011s,PASSED
+"randomHeadValue = data.getValue(""Head"", randomRowIndex)",Chrome 127.0.0.0,,,14-08-2024 15:16:55,14-08-2024 15:16:55,0.010s,PASSED
+println(Randomly selected Head value: $randomHeadValue),Chrome 127.0.0.0,,,14-08-2024 15:16:55,14-08-2024 15:16:55,0.041s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,14-08-2024 15:16:55,14-08-2024 15:16:57,2.463s,PASSED
+"navigateToUrl(""https://robotsparebinindustries.com/#/robot-order"")",Chrome 127.0.0.0,,,14-08-2024 15:16:57,14-08-2024 15:17:00,3.015s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,14-08-2024 15:17:00,14-08-2024 15:17:00,0.058s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/Modal""), 30)",Chrome 127.0.0.0,,,14-08-2024 15:17:00,14-08-2024 15:17:01,0.559s,PASSED
+"click(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/button_OK""))",Chrome 127.0.0.0,,,14-08-2024 15:17:01,14-08-2024 15:17:01,0.302s,PASSED
+"selectOptionByValue(findTestObject(""Page_RobotSpareBin Industries Inc. - Intranet/select""), randomHeadValue, false)",Chrome 127.0.0.0,,,14-08-2024 15:17:01,14-08-2024 15:17:02,0.570s,PASSED
+,,,,,,,
+Test Cases/New,Chrome 127.0.0.0,,,14-08-2024 15:17:02,14-08-2024 15:17:07,5.329s,PASSED
+"data = findTestData(""Data Files/TestData"")",Chrome 127.0.0.0,,,14-08-2024 15:17:02,14-08-2024 15:17:02,0.004s,PASSED
+rowCount = data.getRowNumbers(),Chrome 127.0.0.0,,,14-08-2024 15:17:02,14-08-2024 15:17:02,0.002s,PASSED
+random = new java.util.Random(),Chrome 127.0.0.0,,,14-08-2024 15:17:02,14-08-2024 15:17:02,0.001s,PASSED
+randomRowIndex = random.nextInt(rowCount) + 1,Chrome 127.0.0.0,,,14-08-2024 15:17:02,14-08-2024 15:17:02,0.000s,PASSED
+"randomHeadValue = data.getValue(""Head"", randomRowIndex)",Chrome 127.0.0.0,,,14-08-2024 15:17:02,14-08-2024 15:17:02,0.001s,PASSED
+println(Randomly selected Head value: $randomHeadValue),Chrome 127.0.0.0,,,14-08-2024 15:17:02,14-08-2024 15:17:02,0.001s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,14-08-2024 15:17:02,14-08-2024 15:17:03,1.474s,PASSED
+"navigateToUrl(""https://robotsparebinindustries.com/#/robot-order"")",Chrome 127.0.0.0,,,14-08-2024 15:17:03,14-08-2024 15:17:06,2.547s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,14-08-2024 15:17:06,14-08-2024 15:17:06,0.058s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/Modal""), 30)",Chrome 127.0.0.0,,,14-08-2024 15:17:06,14-08-2024 15:17:06,0.377s,PASSED
+"click(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/button_OK""))",Chrome 127.0.0.0,,,14-08-2024 15:17:06,14-08-2024 15:17:07,0.283s,PASSED
+"selectOptionByValue(findTestObject(""Page_RobotSpareBin Industries Inc. - Intranet/select""), randomHeadValue, false)",Chrome 127.0.0.0,,,14-08-2024 15:17:07,14-08-2024 15:17:07,0.554s,PASSED
+,,,,,,,
+Test Cases/New,Chrome 127.0.0.0,,,14-08-2024 15:17:07,14-08-2024 15:17:13,6.005s,PASSED
+"data = findTestData(""Data Files/TestData"")",Chrome 127.0.0.0,,,14-08-2024 15:17:07,14-08-2024 15:17:07,0.005s,PASSED
+rowCount = data.getRowNumbers(),Chrome 127.0.0.0,,,14-08-2024 15:17:07,14-08-2024 15:17:07,0.001s,PASSED
+random = new java.util.Random(),Chrome 127.0.0.0,,,14-08-2024 15:17:07,14-08-2024 15:17:07,0.001s,PASSED
+randomRowIndex = random.nextInt(rowCount) + 1,Chrome 127.0.0.0,,,14-08-2024 15:17:07,14-08-2024 15:17:07,0.000s,PASSED
+"randomHeadValue = data.getValue(""Head"", randomRowIndex)",Chrome 127.0.0.0,,,14-08-2024 15:17:07,14-08-2024 15:17:07,0.001s,PASSED
+println(Randomly selected Head value: $randomHeadValue),Chrome 127.0.0.0,,,14-08-2024 15:17:07,14-08-2024 15:17:07,0.001s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,14-08-2024 15:17:07,14-08-2024 15:17:09,1.608s,PASSED
+"navigateToUrl(""https://robotsparebinindustries.com/#/robot-order"")",Chrome 127.0.0.0,,,14-08-2024 15:17:09,14-08-2024 15:17:12,3.081s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,14-08-2024 15:17:12,14-08-2024 15:17:12,0.051s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/Modal""), 30)",Chrome 127.0.0.0,,,14-08-2024 15:17:12,14-08-2024 15:17:12,0.395s,PASSED
+"click(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/button_OK""))",Chrome 127.0.0.0,,,14-08-2024 15:17:12,14-08-2024 15:17:13,0.289s,PASSED
+"selectOptionByValue(findTestObject(""Page_RobotSpareBin Industries Inc. - Intranet/select""), randomHeadValue, false)",Chrome 127.0.0.0,,,14-08-2024 15:17:13,14-08-2024 15:17:13,0.546s,PASSED
+,,,,,,,
+Test Cases/New,Chrome 127.0.0.0,,,14-08-2024 15:17:13,14-08-2024 15:17:19,6.055s,PASSED
+"data = findTestData(""Data Files/TestData"")",Chrome 127.0.0.0,,,14-08-2024 15:17:13,14-08-2024 15:17:13,0.005s,PASSED
+rowCount = data.getRowNumbers(),Chrome 127.0.0.0,,,14-08-2024 15:17:13,14-08-2024 15:17:13,0.001s,PASSED
+random = new java.util.Random(),Chrome 127.0.0.0,,,14-08-2024 15:17:13,14-08-2024 15:17:13,0.000s,PASSED
+randomRowIndex = random.nextInt(rowCount) + 1,Chrome 127.0.0.0,,,14-08-2024 15:17:13,14-08-2024 15:17:13,0.001s,PASSED
+"randomHeadValue = data.getValue(""Head"", randomRowIndex)",Chrome 127.0.0.0,,,14-08-2024 15:17:13,14-08-2024 15:17:13,0.000s,PASSED
+println(Randomly selected Head value: $randomHeadValue),Chrome 127.0.0.0,,,14-08-2024 15:17:13,14-08-2024 15:17:13,0.001s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,14-08-2024 15:17:13,14-08-2024 15:17:15,1.271s,PASSED
+"navigateToUrl(""https://robotsparebinindustries.com/#/robot-order"")",Chrome 127.0.0.0,,,14-08-2024 15:17:15,14-08-2024 15:17:18,3.488s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,14-08-2024 15:17:18,14-08-2024 15:17:18,0.080s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/Modal""), 30)",Chrome 127.0.0.0,,,14-08-2024 15:17:18,14-08-2024 15:17:18,0.372s,PASSED
+"click(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/button_OK""))",Chrome 127.0.0.0,,,14-08-2024 15:17:18,14-08-2024 15:17:19,0.272s,PASSED
+"selectOptionByValue(findTestObject(""Page_RobotSpareBin Industries Inc. - Intranet/select""), randomHeadValue, false)",Chrome 127.0.0.0,,,14-08-2024 15:17:19,14-08-2024 15:17:19,0.541s,PASSED
+,,,,,,,
+Test Cases/New,Chrome 127.0.0.0,,,14-08-2024 15:17:19,14-08-2024 15:17:25,5.776s,PASSED
+"data = findTestData(""Data Files/TestData"")",Chrome 127.0.0.0,,,14-08-2024 15:17:19,14-08-2024 15:17:19,0.005s,PASSED
+rowCount = data.getRowNumbers(),Chrome 127.0.0.0,,,14-08-2024 15:17:19,14-08-2024 15:17:19,0.001s,PASSED
+random = new java.util.Random(),Chrome 127.0.0.0,,,14-08-2024 15:17:19,14-08-2024 15:17:19,0.000s,PASSED
+randomRowIndex = random.nextInt(rowCount) + 1,Chrome 127.0.0.0,,,14-08-2024 15:17:19,14-08-2024 15:17:19,0.001s,PASSED
+"randomHeadValue = data.getValue(""Head"", randomRowIndex)",Chrome 127.0.0.0,,,14-08-2024 15:17:19,14-08-2024 15:17:19,0.000s,PASSED
+println(Randomly selected Head value: $randomHeadValue),Chrome 127.0.0.0,,,14-08-2024 15:17:19,14-08-2024 15:17:19,0.001s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,14-08-2024 15:17:19,14-08-2024 15:17:21,1.531s,PASSED
+"navigateToUrl(""https://robotsparebinindustries.com/#/robot-order"")",Chrome 127.0.0.0,,,14-08-2024 15:17:21,14-08-2024 15:17:24,2.931s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,14-08-2024 15:17:24,14-08-2024 15:17:24,0.083s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/Modal""), 30)",Chrome 127.0.0.0,,,14-08-2024 15:17:24,14-08-2024 15:17:24,0.365s,PASSED
+"click(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/button_OK""))",Chrome 127.0.0.0,,,14-08-2024 15:17:24,14-08-2024 15:17:25,0.283s,PASSED
+"selectOptionByValue(findTestObject(""Page_RobotSpareBin Industries Inc. - Intranet/select""), randomHeadValue, false)",Chrome 127.0.0.0,,,14-08-2024 15:17:25,14-08-2024 15:17:25,0.542s,PASSED
+,,,,,,,
+Test Cases/New,Chrome 127.0.0.0,,,14-08-2024 15:17:25,14-08-2024 15:17:31,5.650s,PASSED
+"data = findTestData(""Data Files/TestData"")",Chrome 127.0.0.0,,,14-08-2024 15:17:25,14-08-2024 15:17:25,0.003s,PASSED
+rowCount = data.getRowNumbers(),Chrome 127.0.0.0,,,14-08-2024 15:17:25,14-08-2024 15:17:25,0.001s,PASSED
+random = new java.util.Random(),Chrome 127.0.0.0,,,14-08-2024 15:17:25,14-08-2024 15:17:25,0.000s,PASSED
+randomRowIndex = random.nextInt(rowCount) + 1,Chrome 127.0.0.0,,,14-08-2024 15:17:25,14-08-2024 15:17:25,0.000s,PASSED
+"randomHeadValue = data.getValue(""Head"", randomRowIndex)",Chrome 127.0.0.0,,,14-08-2024 15:17:25,14-08-2024 15:17:25,0.001s,PASSED
+println(Randomly selected Head value: $randomHeadValue),Chrome 127.0.0.0,,,14-08-2024 15:17:25,14-08-2024 15:17:25,0.001s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,14-08-2024 15:17:25,14-08-2024 15:17:27,1.611s,PASSED
+"navigateToUrl(""https://robotsparebinindustries.com/#/robot-order"")",Chrome 127.0.0.0,,,14-08-2024 15:17:27,14-08-2024 15:17:29,2.733s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,14-08-2024 15:17:29,14-08-2024 15:17:30,0.079s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/Modal""), 30)",Chrome 127.0.0.0,,,14-08-2024 15:17:30,14-08-2024 15:17:30,0.367s,PASSED
+"click(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/button_OK""))",Chrome 127.0.0.0,,,14-08-2024 15:17:30,14-08-2024 15:17:30,0.287s,PASSED
+"selectOptionByValue(findTestObject(""Page_RobotSpareBin Industries Inc. - Intranet/select""), randomHeadValue, false)",Chrome 127.0.0.0,,,14-08-2024 15:17:30,14-08-2024 15:17:31,0.543s,PASSED
+,,,,,,,
+Test Cases/New,Chrome 127.0.0.0,,,14-08-2024 15:17:31,14-08-2024 15:17:36,5.630s,PASSED
+"data = findTestData(""Data Files/TestData"")",Chrome 127.0.0.0,,,14-08-2024 15:17:31,14-08-2024 15:17:31,0.032s,PASSED
+rowCount = data.getRowNumbers(),Chrome 127.0.0.0,,,14-08-2024 15:17:31,14-08-2024 15:17:31,0.001s,PASSED
+random = new java.util.Random(),Chrome 127.0.0.0,,,14-08-2024 15:17:31,14-08-2024 15:17:31,0.000s,PASSED
+randomRowIndex = random.nextInt(rowCount) + 1,Chrome 127.0.0.0,,,14-08-2024 15:17:31,14-08-2024 15:17:31,0.000s,PASSED
+"randomHeadValue = data.getValue(""Head"", randomRowIndex)",Chrome 127.0.0.0,,,14-08-2024 15:17:31,14-08-2024 15:17:31,0.001s,PASSED
+println(Randomly selected Head value: $randomHeadValue),Chrome 127.0.0.0,,,14-08-2024 15:17:31,14-08-2024 15:17:31,0.000s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,14-08-2024 15:17:31,14-08-2024 15:17:32,1.409s,PASSED
+"navigateToUrl(""https://robotsparebinindustries.com/#/robot-order"")",Chrome 127.0.0.0,,,14-08-2024 15:17:32,14-08-2024 15:17:35,2.870s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,14-08-2024 15:17:35,14-08-2024 15:17:35,0.082s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/Modal""), 30)",Chrome 127.0.0.0,,,14-08-2024 15:17:35,14-08-2024 15:17:36,0.392s,PASSED
+"click(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/button_OK""))",Chrome 127.0.0.0,,,14-08-2024 15:17:36,14-08-2024 15:17:36,0.284s,PASSED
+"selectOptionByValue(findTestObject(""Page_RobotSpareBin Industries Inc. - Intranet/select""), randomHeadValue, false)",Chrome 127.0.0.0,,,14-08-2024 15:17:36,14-08-2024 15:17:36,0.539s,PASSED
+,,,,,,,
+Test Cases/New,Chrome 127.0.0.0,,,14-08-2024 15:17:36,14-08-2024 15:17:42,6.051s,PASSED
+"data = findTestData(""Data Files/TestData"")",Chrome 127.0.0.0,,,14-08-2024 15:17:36,14-08-2024 15:17:36,0.004s,PASSED
+rowCount = data.getRowNumbers(),Chrome 127.0.0.0,,,14-08-2024 15:17:36,14-08-2024 15:17:36,0.001s,PASSED
+random = new java.util.Random(),Chrome 127.0.0.0,,,14-08-2024 15:17:36,14-08-2024 15:17:36,0.000s,PASSED
+randomRowIndex = random.nextInt(rowCount) + 1,Chrome 127.0.0.0,,,14-08-2024 15:17:36,14-08-2024 15:17:36,0.000s,PASSED
+"randomHeadValue = data.getValue(""Head"", randomRowIndex)",Chrome 127.0.0.0,,,14-08-2024 15:17:36,14-08-2024 15:17:36,0.000s,PASSED
+println(Randomly selected Head value: $randomHeadValue),Chrome 127.0.0.0,,,14-08-2024 15:17:36,14-08-2024 15:17:36,0.000s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,14-08-2024 15:17:36,14-08-2024 15:17:38,1.367s,PASSED
+"navigateToUrl(""https://robotsparebinindustries.com/#/robot-order"")",Chrome 127.0.0.0,,,14-08-2024 15:17:38,14-08-2024 15:17:41,3.369s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,14-08-2024 15:17:41,14-08-2024 15:17:41,0.047s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/Modal""), 30)",Chrome 127.0.0.0,,,14-08-2024 15:17:41,14-08-2024 15:17:42,0.396s,PASSED
+"click(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/button_OK""))",Chrome 127.0.0.0,,,14-08-2024 15:17:42,14-08-2024 15:17:42,0.295s,PASSED
+"selectOptionByValue(findTestObject(""Page_RobotSpareBin Industries Inc. - Intranet/select""), randomHeadValue, false)",Chrome 127.0.0.0,,,14-08-2024 15:17:42,14-08-2024 15:17:42,0.550s,PASSED
+,,,,,,,
+Test Cases/New,Chrome 127.0.0.0,,,14-08-2024 15:17:43,14-08-2024 15:17:48,5.838s,PASSED
+"data = findTestData(""Data Files/TestData"")",Chrome 127.0.0.0,,,14-08-2024 15:17:43,14-08-2024 15:17:43,0.006s,PASSED
+rowCount = data.getRowNumbers(),Chrome 127.0.0.0,,,14-08-2024 15:17:43,14-08-2024 15:17:43,0.002s,PASSED
+random = new java.util.Random(),Chrome 127.0.0.0,,,14-08-2024 15:17:43,14-08-2024 15:17:43,0.000s,PASSED
+randomRowIndex = random.nextInt(rowCount) + 1,Chrome 127.0.0.0,,,14-08-2024 15:17:43,14-08-2024 15:17:43,0.000s,PASSED
+"randomHeadValue = data.getValue(""Head"", randomRowIndex)",Chrome 127.0.0.0,,,14-08-2024 15:17:43,14-08-2024 15:17:43,0.000s,PASSED
+println(Randomly selected Head value: $randomHeadValue),Chrome 127.0.0.0,,,14-08-2024 15:17:43,14-08-2024 15:17:43,0.000s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,14-08-2024 15:17:43,14-08-2024 15:17:44,1.440s,PASSED
+"navigateToUrl(""https://robotsparebinindustries.com/#/robot-order"")",Chrome 127.0.0.0,,,14-08-2024 15:17:44,14-08-2024 15:17:47,3.108s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,14-08-2024 15:17:47,14-08-2024 15:17:47,0.043s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/Modal""), 30)",Chrome 127.0.0.0,,,14-08-2024 15:17:47,14-08-2024 15:17:48,0.383s,PASSED
+"click(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/button_OK""))",Chrome 127.0.0.0,,,14-08-2024 15:17:48,14-08-2024 15:17:48,0.301s,PASSED
+"selectOptionByValue(findTestObject(""Page_RobotSpareBin Industries Inc. - Intranet/select""), randomHeadValue, false)",Chrome 127.0.0.0,,,14-08-2024 15:17:48,14-08-2024 15:17:48,0.534s,PASSED
+,,,,,,,
+Test Cases/New,Chrome 127.0.0.0,,,14-08-2024 15:17:48,14-08-2024 15:17:54,5.436s,PASSED
+"data = findTestData(""Data Files/TestData"")",Chrome 127.0.0.0,,,14-08-2024 15:17:48,14-08-2024 15:17:48,0.003s,PASSED
+rowCount = data.getRowNumbers(),Chrome 127.0.0.0,,,14-08-2024 15:17:48,14-08-2024 15:17:48,0.002s,PASSED
+random = new java.util.Random(),Chrome 127.0.0.0,,,14-08-2024 15:17:48,14-08-2024 15:17:48,0.001s,PASSED
+randomRowIndex = random.nextInt(rowCount) + 1,Chrome 127.0.0.0,,,14-08-2024 15:17:48,14-08-2024 15:17:48,0.000s,PASSED
+"randomHeadValue = data.getValue(""Head"", randomRowIndex)",Chrome 127.0.0.0,,,14-08-2024 15:17:48,14-08-2024 15:17:48,0.001s,PASSED
+println(Randomly selected Head value: $randomHeadValue),Chrome 127.0.0.0,,,14-08-2024 15:17:48,14-08-2024 15:17:48,0.001s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,14-08-2024 15:17:48,14-08-2024 15:17:50,1.285s,PASSED
+"navigateToUrl(""https://robotsparebinindustries.com/#/robot-order"")",Chrome 127.0.0.0,,,14-08-2024 15:17:50,14-08-2024 15:17:53,2.888s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,14-08-2024 15:17:53,14-08-2024 15:17:53,0.040s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/Modal""), 30)",Chrome 127.0.0.0,,,14-08-2024 15:17:53,14-08-2024 15:17:53,0.366s,PASSED
+"click(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/button_OK""))",Chrome 127.0.0.0,,,14-08-2024 15:17:53,14-08-2024 15:17:53,0.287s,PASSED
+"selectOptionByValue(findTestObject(""Page_RobotSpareBin Industries Inc. - Intranet/select""), randomHeadValue, false)",Chrome 127.0.0.0,,,14-08-2024 15:17:53,14-08-2024 15:17:54,0.533s,PASSED
+,,,,,,,
+Test Cases/New,Chrome 127.0.0.0,,,14-08-2024 15:17:54,14-08-2024 15:18:00,6.201s,PASSED
+"data = findTestData(""Data Files/TestData"")",Chrome 127.0.0.0,,,14-08-2024 15:17:54,14-08-2024 15:17:54,0.004s,PASSED
+rowCount = data.getRowNumbers(),Chrome 127.0.0.0,,,14-08-2024 15:17:54,14-08-2024 15:17:54,0.002s,PASSED
+random = new java.util.Random(),Chrome 127.0.0.0,,,14-08-2024 15:17:54,14-08-2024 15:17:54,0.001s,PASSED
+randomRowIndex = random.nextInt(rowCount) + 1,Chrome 127.0.0.0,,,14-08-2024 15:17:54,14-08-2024 15:17:54,0.001s,PASSED
+"randomHeadValue = data.getValue(""Head"", randomRowIndex)",Chrome 127.0.0.0,,,14-08-2024 15:17:54,14-08-2024 15:17:54,0.000s,PASSED
+println(Randomly selected Head value: $randomHeadValue),Chrome 127.0.0.0,,,14-08-2024 15:17:54,14-08-2024 15:17:54,0.000s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,14-08-2024 15:17:54,14-08-2024 15:17:55,1.615s,PASSED
+"navigateToUrl(""https://robotsparebinindustries.com/#/robot-order"")",Chrome 127.0.0.0,,,14-08-2024 15:17:55,14-08-2024 15:17:59,3.294s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,14-08-2024 15:17:59,14-08-2024 15:17:59,0.081s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/Modal""), 30)",Chrome 127.0.0.0,,,14-08-2024 15:17:59,14-08-2024 15:17:59,0.372s,PASSED
+"click(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/button_OK""))",Chrome 127.0.0.0,,,14-08-2024 15:17:59,14-08-2024 15:17:59,0.272s,PASSED
+"selectOptionByValue(findTestObject(""Page_RobotSpareBin Industries Inc. - Intranet/select""), randomHeadValue, false)",Chrome 127.0.0.0,,,14-08-2024 15:17:59,14-08-2024 15:18:00,0.543s,PASSED
+,,,,,,,
+Test Cases/New,Chrome 127.0.0.0,,,14-08-2024 15:18:00,14-08-2024 15:18:06,5.539s,PASSED
+"data = findTestData(""Data Files/TestData"")",Chrome 127.0.0.0,,,14-08-2024 15:18:00,14-08-2024 15:18:00,0.006s,PASSED
+rowCount = data.getRowNumbers(),Chrome 127.0.0.0,,,14-08-2024 15:18:00,14-08-2024 15:18:00,0.001s,PASSED
+random = new java.util.Random(),Chrome 127.0.0.0,,,14-08-2024 15:18:00,14-08-2024 15:18:00,0.000s,PASSED
+randomRowIndex = random.nextInt(rowCount) + 1,Chrome 127.0.0.0,,,14-08-2024 15:18:00,14-08-2024 15:18:00,0.000s,PASSED
+"randomHeadValue = data.getValue(""Head"", randomRowIndex)",Chrome 127.0.0.0,,,14-08-2024 15:18:00,14-08-2024 15:18:00,0.000s,PASSED
+println(Randomly selected Head value: $randomHeadValue),Chrome 127.0.0.0,,,14-08-2024 15:18:00,14-08-2024 15:18:00,0.000s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,14-08-2024 15:18:00,14-08-2024 15:18:01,1.404s,PASSED
+"navigateToUrl(""https://robotsparebinindustries.com/#/robot-order"")",Chrome 127.0.0.0,,,14-08-2024 15:18:01,14-08-2024 15:18:04,2.868s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,14-08-2024 15:18:04,14-08-2024 15:18:04,0.044s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/Modal""), 30)",Chrome 127.0.0.0,,,14-08-2024 15:18:04,14-08-2024 15:18:05,0.378s,PASSED
+"click(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/button_OK""))",Chrome 127.0.0.0,,,14-08-2024 15:18:05,14-08-2024 15:18:05,0.281s,PASSED
+"selectOptionByValue(findTestObject(""Page_RobotSpareBin Industries Inc. - Intranet/select""), randomHeadValue, false)",Chrome 127.0.0.0,,,14-08-2024 15:18:05,14-08-2024 15:18:06,0.541s,PASSED
+,,,,,,,
+Test Cases/New,Chrome 127.0.0.0,,,14-08-2024 15:18:06,14-08-2024 15:18:11,5.371s,PASSED
+"data = findTestData(""Data Files/TestData"")",Chrome 127.0.0.0,,,14-08-2024 15:18:06,14-08-2024 15:18:06,0.003s,PASSED
+rowCount = data.getRowNumbers(),Chrome 127.0.0.0,,,14-08-2024 15:18:06,14-08-2024 15:18:06,0.001s,PASSED
+random = new java.util.Random(),Chrome 127.0.0.0,,,14-08-2024 15:18:06,14-08-2024 15:18:06,0.000s,PASSED
+randomRowIndex = random.nextInt(rowCount) + 1,Chrome 127.0.0.0,,,14-08-2024 15:18:06,14-08-2024 15:18:06,0.000s,PASSED
+"randomHeadValue = data.getValue(""Head"", randomRowIndex)",Chrome 127.0.0.0,,,14-08-2024 15:18:06,14-08-2024 15:18:06,0.000s,PASSED
+println(Randomly selected Head value: $randomHeadValue),Chrome 127.0.0.0,,,14-08-2024 15:18:06,14-08-2024 15:18:06,0.001s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,14-08-2024 15:18:06,14-08-2024 15:18:07,1.275s,PASSED
+"navigateToUrl(""https://robotsparebinindustries.com/#/robot-order"")",Chrome 127.0.0.0,,,14-08-2024 15:18:07,14-08-2024 15:18:10,2.754s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,14-08-2024 15:18:10,14-08-2024 15:18:10,0.083s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/Modal""), 30)",Chrome 127.0.0.0,,,14-08-2024 15:18:10,14-08-2024 15:18:10,0.415s,PASSED
+"click(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/button_OK""))",Chrome 127.0.0.0,,,14-08-2024 15:18:10,14-08-2024 15:18:10,0.278s,PASSED
+"selectOptionByValue(findTestObject(""Page_RobotSpareBin Industries Inc. - Intranet/select""), randomHeadValue, false)",Chrome 127.0.0.0,,,14-08-2024 15:18:10,14-08-2024 15:18:11,0.542s,PASSED
+,,,,,,,
+Test Cases/New,Chrome 127.0.0.0,,,14-08-2024 15:18:11,14-08-2024 15:18:17,6.085s,PASSED
+"data = findTestData(""Data Files/TestData"")",Chrome 127.0.0.0,,,14-08-2024 15:18:11,14-08-2024 15:18:11,0.005s,PASSED
+rowCount = data.getRowNumbers(),Chrome 127.0.0.0,,,14-08-2024 15:18:11,14-08-2024 15:18:11,0.000s,PASSED
+random = new java.util.Random(),Chrome 127.0.0.0,,,14-08-2024 15:18:11,14-08-2024 15:18:11,0.000s,PASSED
+randomRowIndex = random.nextInt(rowCount) + 1,Chrome 127.0.0.0,,,14-08-2024 15:18:11,14-08-2024 15:18:11,0.000s,PASSED
+"randomHeadValue = data.getValue(""Head"", randomRowIndex)",Chrome 127.0.0.0,,,14-08-2024 15:18:11,14-08-2024 15:18:11,0.000s,PASSED
+println(Randomly selected Head value: $randomHeadValue),Chrome 127.0.0.0,,,14-08-2024 15:18:11,14-08-2024 15:18:11,0.001s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,14-08-2024 15:18:11,14-08-2024 15:18:13,1.491s,PASSED
+"navigateToUrl(""https://robotsparebinindustries.com/#/robot-order"")",Chrome 127.0.0.0,,,14-08-2024 15:18:13,14-08-2024 15:18:16,3.287s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,14-08-2024 15:18:16,14-08-2024 15:18:16,0.082s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/Modal""), 30)",Chrome 127.0.0.0,,,14-08-2024 15:18:16,14-08-2024 15:18:16,0.381s,PASSED
+"click(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/button_OK""))",Chrome 127.0.0.0,,,14-08-2024 15:18:16,14-08-2024 15:18:17,0.280s,PASSED
+"selectOptionByValue(findTestObject(""Page_RobotSpareBin Industries Inc. - Intranet/select""), randomHeadValue, false)",Chrome 127.0.0.0,,,14-08-2024 15:18:17,14-08-2024 15:18:17,0.540s,PASSED
+,,,,,,,
+Test Cases/New,Chrome 127.0.0.0,,,14-08-2024 15:18:17,14-08-2024 15:18:23,6.102s,PASSED
+"data = findTestData(""Data Files/TestData"")",Chrome 127.0.0.0,,,14-08-2024 15:18:17,14-08-2024 15:18:17,0.005s,PASSED
+rowCount = data.getRowNumbers(),Chrome 127.0.0.0,,,14-08-2024 15:18:17,14-08-2024 15:18:17,0.001s,PASSED
+random = new java.util.Random(),Chrome 127.0.0.0,,,14-08-2024 15:18:17,14-08-2024 15:18:17,0.000s,PASSED
+randomRowIndex = random.nextInt(rowCount) + 1,Chrome 127.0.0.0,,,14-08-2024 15:18:17,14-08-2024 15:18:17,0.000s,PASSED
+"randomHeadValue = data.getValue(""Head"", randomRowIndex)",Chrome 127.0.0.0,,,14-08-2024 15:18:17,14-08-2024 15:18:17,0.000s,PASSED
+println(Randomly selected Head value: $randomHeadValue),Chrome 127.0.0.0,,,14-08-2024 15:18:17,14-08-2024 15:18:17,0.000s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,14-08-2024 15:18:17,14-08-2024 15:18:19,1.475s,PASSED
+"navigateToUrl(""https://robotsparebinindustries.com/#/robot-order"")",Chrome 127.0.0.0,,,14-08-2024 15:18:19,14-08-2024 15:18:22,3.370s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,14-08-2024 15:18:22,14-08-2024 15:18:22,0.052s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/Modal""), 30)",Chrome 127.0.0.0,,,14-08-2024 15:18:22,14-08-2024 15:18:22,0.386s,PASSED
+"click(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/button_OK""))",Chrome 127.0.0.0,,,14-08-2024 15:18:22,14-08-2024 15:18:23,0.272s,PASSED
+"selectOptionByValue(findTestObject(""Page_RobotSpareBin Industries Inc. - Intranet/select""), randomHeadValue, false)",Chrome 127.0.0.0,,,14-08-2024 15:18:23,14-08-2024 15:18:23,0.526s,PASSED
+,,,,,,,
+Test Cases/New,Chrome 127.0.0.0,,,14-08-2024 15:18:23,14-08-2024 15:18:28,5.044s,PASSED
+"data = findTestData(""Data Files/TestData"")",Chrome 127.0.0.0,,,14-08-2024 15:18:23,14-08-2024 15:18:23,0.003s,PASSED
+rowCount = data.getRowNumbers(),Chrome 127.0.0.0,,,14-08-2024 15:18:23,14-08-2024 15:18:23,0.001s,PASSED
+random = new java.util.Random(),Chrome 127.0.0.0,,,14-08-2024 15:18:23,14-08-2024 15:18:23,0.000s,PASSED
+randomRowIndex = random.nextInt(rowCount) + 1,Chrome 127.0.0.0,,,14-08-2024 15:18:23,14-08-2024 15:18:23,0.000s,PASSED
+"randomHeadValue = data.getValue(""Head"", randomRowIndex)",Chrome 127.0.0.0,,,14-08-2024 15:18:23,14-08-2024 15:18:23,0.001s,PASSED
+println(Randomly selected Head value: $randomHeadValue),Chrome 127.0.0.0,,,14-08-2024 15:18:23,14-08-2024 15:18:23,0.000s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,14-08-2024 15:18:23,14-08-2024 15:18:25,1.377s,PASSED
+"navigateToUrl(""https://robotsparebinindustries.com/#/robot-order"")",Chrome 127.0.0.0,,,14-08-2024 15:18:25,14-08-2024 15:18:27,2.344s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,14-08-2024 15:18:27,14-08-2024 15:18:27,0.080s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/Modal""), 30)",Chrome 127.0.0.0,,,14-08-2024 15:18:27,14-08-2024 15:18:27,0.397s,PASSED
+"click(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/button_OK""))",Chrome 127.0.0.0,,,14-08-2024 15:18:27,14-08-2024 15:18:28,0.278s,PASSED
+"selectOptionByValue(findTestObject(""Page_RobotSpareBin Industries Inc. - Intranet/select""), randomHeadValue, false)",Chrome 127.0.0.0,,,14-08-2024 15:18:28,14-08-2024 15:18:28,0.542s,PASSED
+,,,,,,,
+Test Cases/New,Chrome 127.0.0.0,,,14-08-2024 15:18:28,14-08-2024 15:18:34,5.842s,PASSED
+"data = findTestData(""Data Files/TestData"")",Chrome 127.0.0.0,,,14-08-2024 15:18:28,14-08-2024 15:18:28,0.004s,PASSED
+rowCount = data.getRowNumbers(),Chrome 127.0.0.0,,,14-08-2024 15:18:28,14-08-2024 15:18:28,0.001s,PASSED
+random = new java.util.Random(),Chrome 127.0.0.0,,,14-08-2024 15:18:28,14-08-2024 15:18:28,0.000s,PASSED
+randomRowIndex = random.nextInt(rowCount) + 1,Chrome 127.0.0.0,,,14-08-2024 15:18:28,14-08-2024 15:18:28,0.001s,PASSED
+"randomHeadValue = data.getValue(""Head"", randomRowIndex)",Chrome 127.0.0.0,,,14-08-2024 15:18:28,14-08-2024 15:18:28,0.000s,PASSED
+println(Randomly selected Head value: $randomHeadValue),Chrome 127.0.0.0,,,14-08-2024 15:18:28,14-08-2024 15:18:28,0.001s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,14-08-2024 15:18:28,14-08-2024 15:18:30,1.431s,PASSED
+"navigateToUrl(""https://robotsparebinindustries.com/#/robot-order"")",Chrome 127.0.0.0,,,14-08-2024 15:18:30,14-08-2024 15:18:33,3.176s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,14-08-2024 15:18:33,14-08-2024 15:18:33,0.041s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/Modal""), 30)",Chrome 127.0.0.0,,,14-08-2024 15:18:33,14-08-2024 15:18:33,0.362s,PASSED
+"click(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/button_OK""))",Chrome 127.0.0.0,,,14-08-2024 15:18:33,14-08-2024 15:18:34,0.268s,PASSED
+"selectOptionByValue(findTestObject(""Page_RobotSpareBin Industries Inc. - Intranet/select""), randomHeadValue, false)",Chrome 127.0.0.0,,,14-08-2024 15:18:34,14-08-2024 15:18:34,0.540s,PASSED
+,,,,,,,
+Test Cases/New,Chrome 127.0.0.0,,,14-08-2024 15:18:34,14-08-2024 15:18:40,5.529s,PASSED
+"data = findTestData(""Data Files/TestData"")",Chrome 127.0.0.0,,,14-08-2024 15:18:34,14-08-2024 15:18:34,0.002s,PASSED
+rowCount = data.getRowNumbers(),Chrome 127.0.0.0,,,14-08-2024 15:18:34,14-08-2024 15:18:34,0.000s,PASSED
+random = new java.util.Random(),Chrome 127.0.0.0,,,14-08-2024 15:18:34,14-08-2024 15:18:34,0.000s,PASSED
+randomRowIndex = random.nextInt(rowCount) + 1,Chrome 127.0.0.0,,,14-08-2024 15:18:34,14-08-2024 15:18:34,0.001s,PASSED
+"randomHeadValue = data.getValue(""Head"", randomRowIndex)",Chrome 127.0.0.0,,,14-08-2024 15:18:34,14-08-2024 15:18:34,0.000s,PASSED
+println(Randomly selected Head value: $randomHeadValue),Chrome 127.0.0.0,,,14-08-2024 15:18:34,14-08-2024 15:18:34,0.000s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,14-08-2024 15:18:34,14-08-2024 15:18:36,1.453s,PASSED
+"navigateToUrl(""https://robotsparebinindustries.com/#/robot-order"")",Chrome 127.0.0.0,,,14-08-2024 15:18:36,14-08-2024 15:18:38,2.789s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,14-08-2024 15:18:38,14-08-2024 15:18:38,0.068s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/Modal""), 30)",Chrome 127.0.0.0,,,14-08-2024 15:18:38,14-08-2024 15:18:39,0.378s,PASSED
+"click(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/button_OK""))",Chrome 127.0.0.0,,,14-08-2024 15:18:39,14-08-2024 15:18:39,0.267s,PASSED
+"selectOptionByValue(findTestObject(""Page_RobotSpareBin Industries Inc. - Intranet/select""), randomHeadValue, false)",Chrome 127.0.0.0,,,14-08-2024 15:18:39,14-08-2024 15:18:40,0.556s,PASSED
+,,,,,,,
+Test Cases/New,Chrome 127.0.0.0,,,14-08-2024 15:18:40,14-08-2024 15:18:45,5.656s,PASSED
+"data = findTestData(""Data Files/TestData"")",Chrome 127.0.0.0,,,14-08-2024 15:18:40,14-08-2024 15:18:40,0.005s,PASSED
+rowCount = data.getRowNumbers(),Chrome 127.0.0.0,,,14-08-2024 15:18:40,14-08-2024 15:18:40,0.001s,PASSED
+random = new java.util.Random(),Chrome 127.0.0.0,,,14-08-2024 15:18:40,14-08-2024 15:18:40,0.000s,PASSED
+randomRowIndex = random.nextInt(rowCount) + 1,Chrome 127.0.0.0,,,14-08-2024 15:18:40,14-08-2024 15:18:40,0.000s,PASSED
+"randomHeadValue = data.getValue(""Head"", randomRowIndex)",Chrome 127.0.0.0,,,14-08-2024 15:18:40,14-08-2024 15:18:40,0.000s,PASSED
+println(Randomly selected Head value: $randomHeadValue),Chrome 127.0.0.0,,,14-08-2024 15:18:40,14-08-2024 15:18:40,0.000s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,14-08-2024 15:18:40,14-08-2024 15:18:41,1.372s,PASSED
+"navigateToUrl(""https://robotsparebinindustries.com/#/robot-order"")",Chrome 127.0.0.0,,,14-08-2024 15:18:41,14-08-2024 15:18:44,2.981s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,14-08-2024 15:18:44,14-08-2024 15:18:44,0.046s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/Modal""), 30)",Chrome 127.0.0.0,,,14-08-2024 15:18:44,14-08-2024 15:18:45,0.394s,PASSED
+"click(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/button_OK""))",Chrome 127.0.0.0,,,14-08-2024 15:18:45,14-08-2024 15:18:45,0.284s,PASSED
+"selectOptionByValue(findTestObject(""Page_RobotSpareBin Industries Inc. - Intranet/select""), randomHeadValue, false)",Chrome 127.0.0.0,,,14-08-2024 15:18:45,14-08-2024 15:18:45,0.543s,PASSED
+,,,,,,,
+Test Cases/New,Chrome 127.0.0.0,,,14-08-2024 15:18:45,14-08-2024 15:18:52,6.386s,PASSED
+"data = findTestData(""Data Files/TestData"")",Chrome 127.0.0.0,,,14-08-2024 15:18:45,14-08-2024 15:18:45,0.004s,PASSED
+rowCount = data.getRowNumbers(),Chrome 127.0.0.0,,,14-08-2024 15:18:45,14-08-2024 15:18:45,0.002s,PASSED
+random = new java.util.Random(),Chrome 127.0.0.0,,,14-08-2024 15:18:45,14-08-2024 15:18:45,0.001s,PASSED
+randomRowIndex = random.nextInt(rowCount) + 1,Chrome 127.0.0.0,,,14-08-2024 15:18:45,14-08-2024 15:18:45,0.000s,PASSED
+"randomHeadValue = data.getValue(""Head"", randomRowIndex)",Chrome 127.0.0.0,,,14-08-2024 15:18:45,14-08-2024 15:18:45,0.000s,PASSED
+println(Randomly selected Head value: $randomHeadValue),Chrome 127.0.0.0,,,14-08-2024 15:18:45,14-08-2024 15:18:45,0.000s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,14-08-2024 15:18:45,14-08-2024 15:18:47,1.515s,PASSED
+"navigateToUrl(""https://robotsparebinindustries.com/#/robot-order"")",Chrome 127.0.0.0,,,14-08-2024 15:18:47,14-08-2024 15:18:50,3.596s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,14-08-2024 15:18:50,14-08-2024 15:18:51,0.048s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/Modal""), 30)",Chrome 127.0.0.0,,,14-08-2024 15:18:51,14-08-2024 15:18:51,0.382s,PASSED
+"click(findTestObject(""Object Repository/Page_RobotSpareBin Industries Inc. - Intranet/button_OK""))",Chrome 127.0.0.0,,,14-08-2024 15:18:51,14-08-2024 15:18:51,0.272s,PASSED
+"selectOptionByValue(findTestObject(""Page_RobotSpareBin Industries Inc. - Intranet/select""), randomHeadValue, false)",Chrome 127.0.0.0,,,14-08-2024 15:18:51,14-08-2024 15:18:52,0.546s,PASSED
