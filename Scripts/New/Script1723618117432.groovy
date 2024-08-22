@@ -30,13 +30,14 @@ WebUI.navigateToUrl('https://robotsparebinindustries.com/#/robot-order')
 WebUI.maximizeWindow()
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Home/Modal'), 30)
-
+void handleModal() {
 def buttons= [
 	findTestObject("Object Repository/Page_Home/buttonModal",['text':'OK']),
 	findTestObject("Object Repository/Page_Home/buttonModal",['text':'Yep']),
 	findTestObject("Object Repository/Page_Home/buttonModal",['text':'I guess so...']),
 	findTestObject("Object Repository/Page_Home/buttonModal",['text':'No way'])
 	]
+
 	// Randomly select and click a button
 	Random random = new Random()
 	int randomIndex = random.nextInt(buttons.size())
@@ -48,10 +49,10 @@ def buttons= [
 		int retryIndex = random.nextInt(otherButtons.size())
 		WebUI.click(otherButtons[retryIndex])
 	}
+}
 
-//WebUI.click(findTestObject('Object Repository/Page_Home/buttonModal'))
-
-for(def row=1 ; row <=rowCount; row ++) {
+handleModal()
+	for(def row=1 ; row <=rowCount; row ++) {
 	head = data.getValue('Head', row)
 	body = data.getValue('Body', row)
 	legs= data.getValue('Legs', row)
@@ -66,7 +67,15 @@ WebUI.verifyElementChecked(findTestObject("Object Repository/Page_Home/radioBody
 
 WebUI.setText(findTestObject("Object Repository/Page_Home/textBox",['placeholder':'Enter the part number for the legs']), legs)
 WebUI.setText(findTestObject("Object Repository/Page_Home/textBox",['placeholder':'Shipping address']), address)
-
+WebUI.click(findTestObject("Object Repository/Page_Home/button_Preview",['text': 'Preview']))
+WebUI.click(findTestObject("Object Repository/Page_Home/button_Preview",['text': 'Order']))
+if (WebUI.waitForAlert(5)) {
+	WebUI.acceptAlert(FailureHandling.OPTIONAL) // or WebUI.dismissAlert(FailureHandling.OPTIONAL) depending on the context
+	//WebUI.comment("Alert was present and handled.")
 }
+WebUI.click(findTestObject("Object Repository/Page_Home/button_Preview",['text': 'Order another robot']))
+handleModal()
+}
+
 
 WebUI.closeBrowser()

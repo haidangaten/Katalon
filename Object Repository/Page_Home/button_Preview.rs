@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='preview']</value>
+         <value>//button[@type=&quot;submit&quot; and text()='${text}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>217e4a18-6623-4899-8af4-c402824fc694</webElementGuid>
+      <webElementGuid>4ca2d723-8a8d-4099-9df2-fdfcd4f1e2f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>preview</value>
-      <webElementGuid>a6ceb952-fbbf-4382-9c7c-28fe02e38c39</webElementGuid>
+      <webElementGuid>8c2a9e4c-b0bd-448c-b4be-33816f02c8c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>2386090a-f49a-4a56-9e98-2206b54df95a</webElementGuid>
+      <webElementGuid>c6cddd43-57c2-4da1-908a-5daa8d423a39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-secondary</value>
-      <webElementGuid>a9e6adcc-83ad-4cd3-a306-d3002fe1fff5</webElementGuid>
+      <webElementGuid>8249dbca-f718-4237-8d78-6b886be111df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Preview</value>
-      <webElementGuid>4110bd6b-5140-4ba0-8355-b8e4f58bf587</webElementGuid>
+      <webElementGuid>36a212fa-f91b-4e33-8b3f-4889006b7855</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;preview&quot;)</value>
-      <webElementGuid>622df6fa-fd55-4340-8258-e86d78352f3f</webElementGuid>
+      <webElementGuid>b996d79a-7e76-4ed6-b2f8-a216e48686f6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='preview']</value>
-      <webElementGuid>c3201452-21a1-4b67-a948-7bb7a4612988</webElementGuid>
+      <webElementGuid>2e0564d4-4ecc-4259-a7ce-c709dcf4dd2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div/form/button</value>
-      <webElementGuid>c1f1ac83-c826-47dc-a2d9-b64ac802c94b</webElementGuid>
+      <webElementGuid>1617126b-1348-4ea1-a484-d89c271e6411</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Drillbit 2000 body'])[1]/following::button[1]</value>
-      <webElementGuid>616ae0c5-f8b6-4063-9fde-197e49a7d680</webElementGuid>
+      <webElementGuid>a4597c5d-2888-4055-b78e-5acff4895cf6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Spanner mate body'])[1]/following::button[1]</value>
-      <webElementGuid>d2931915-5171-4b2b-9e81-af3216c1f462</webElementGuid>
+      <webElementGuid>f436378d-4a6f-4595-ac3c-9890afb9d3d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[1]/preceding::button[1]</value>
-      <webElementGuid>0011db10-989b-40d3-9152-50d1e35c7c11</webElementGuid>
+      <webElementGuid>f11eff22-2a04-439d-9a4f-8f23bfba3435</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Show model info'])[1]/preceding::button[2]</value>
-      <webElementGuid>0fcb607d-106c-4b2d-b82b-c649d83444f5</webElementGuid>
+      <webElementGuid>ed97d815-fd81-4108-94d2-206b9f05e705</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Preview']/parent::*</value>
-      <webElementGuid>6d702747-1316-4a5b-86a1-1894c96d43df</webElementGuid>
+      <webElementGuid>52c84182-1d70-4340-95bf-727929a0727f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>d56d35e3-3fc8-46a6-a4b9-7fa13932ca9d</webElementGuid>
+      <webElementGuid>2a825dd5-8bab-49bb-a2ac-02e914f95c8b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +141,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'preview' and @type = 'submit' and (text() = 'Preview' or . = 'Preview')]</value>
-      <webElementGuid>b388ae12-7fa5-45ea-b323-4c5d8d5b2e5c</webElementGuid>
+      <webElementGuid>0e509b11-c7ee-4432-8980-c469cc5d5896</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
